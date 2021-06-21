@@ -1,0 +1,20 @@
+console.log(typeof 1);
+// expected output: "number"
+
+console.log(typeof '1.1');
+// expected output: "string"
+
+console.log(typeof true);
+// expected output: "boolean"
+
+console.log(typeof undeclaredVariable);
+// expected output: "undefined"
+
+typeof null === 'object' 
+typeof NaN === 'number';
+// Objects
+typeof {a: 1} === 'object';
+
+// use Array.isArray or Object.prototype.toString.call
+// to differentiate regular objects from arrays
+typeof [1, 2, 4] === 'object';
